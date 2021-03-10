@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Ortalama Bul</string>
+    <string name="ekle">Ekle</string>
+    <string name="autocompletetextview">AutoCompleteTextView</string>
 </resources>
