@@ -19,7 +19,7 @@
             android:layout_height="42dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
-            android:text="@string/autocompletetextview"
+            android:hint="Ders Adı Girin:"
             app:layout_constraintEnd_toStartOf="@+id/btnEkle"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
