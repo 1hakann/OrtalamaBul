@@ -6,6 +6,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 import android.view.LayoutInflater
 import android.view.View
 import android.widget.*
+import es.dmoral.toasty.Toasty
 import kotlinx.android.synthetic.main.yeni_icerik_layout.view.*
 
 
@@ -65,7 +66,7 @@ class MainActivity : AppCompatActivity() {
                 reset()
 
             } else {
-                Toast.makeText(this, "Ders Adı Girin", Toast.LENGTH_LONG).show()
+                Toasty.warning(this, "Ders Adı Girin", Toast.LENGTH_LONG, true).show()
             }
         }
 

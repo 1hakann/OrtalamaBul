@@ -15,6 +15,8 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:text="@string/autocompletetextview"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="@android:color/transparent"
         app:layout_constraintEnd_toStartOf="@+id/btnSil"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -26,6 +28,8 @@
         android:layout_height="38dp"
         android:layout_marginEnd="8dp"
         android:entries="@array/TumNotlar"
+        android:popupBackground="@color/purple_200"
+        app:backgroundTint="@color/purple_200"
         app:layout_constraintBottom_toBottomOf="@+id/btnSil"
         app:layout_constraintEnd_toStartOf="@+id/spYeniKredi"
         app:layout_constraintStart_toStartOf="@+id/tvYeniDersler"
@@ -38,6 +42,8 @@
         android:layout_height="38dp"
         android:layout_marginStart="4dp"
         android:entries="@array/krediler"
+        android:popupBackground="@color/purple_200"
+        app:backgroundTint="@color/purple_200"
         app:layout_constraintBottom_toBottomOf="@+id/btnSil"
         app:layout_constraintEnd_toEndOf="@+id/tvYeniDersler"
         app:layout_constraintStart_toEndOf="@+id/spYeniHarf"
@@ -51,10 +57,17 @@
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="8dp"
-        android:text="@string/sil"
+        android:background="@drawable/cancel"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/spYeniKredi"
         app:layout_constraintTop_toTopOf="@+id/tvYeniDersler"
         tools:ignore="MissingConstraints" />
+
+        <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/holo_purple"
+            tools:ignore="MissingConstraints"></View>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

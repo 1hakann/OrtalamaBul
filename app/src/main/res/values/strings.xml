@@ -3,4 +3,7 @@
     <string name="ekle">Ekle</string>
     <string name="autocompletetextview">AutoCompleteTextView</string>
     <string name="sil">sil</string>
+    <string name="ders_ad_girin">Ders Adı Girin:</string>
+    <string name="hesapla">Hesapla</string>
+    <string name="todo">TODO</string>
 </resources>

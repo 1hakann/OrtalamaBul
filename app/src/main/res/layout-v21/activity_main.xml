@@ -20,16 +20,15 @@
             android:layout_height="42dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
+            android:backgroundTint="@android:color/transparent"
             android:hint="@string/ders_ad_girin"
             android:popupBackground="@color/purple_200"
             android:textColor="#FFFFFF"
             android:textColorHint="#FFFFFF"
-            app:backgroundTint="@android:color/transparent"
             app:layout_constraintEnd_toStartOf="@+id/btnEkle"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            tools:ignore="LabelFor,MissingConstraints"
-            />
+            tools:ignore="LabelFor,MissingConstraints" />
 
         <Spinner
             android:id="@+id/spHarf"
@@ -37,7 +36,6 @@
             android:layout_height="38dp"
             android:layout_marginEnd="8dp"
             android:entries="@array/TumNotlar"
-            app:backgroundTint="@color/purple_200"
             android:popupBackground="@color/purple_200"
             app:layout_constraintBottom_toBottomOf="@+id/btnEkle"
             app:layout_constraintEnd_toStartOf="@+id/spKredi"
@@ -52,7 +50,6 @@
             android:layout_marginStart="4dp"
             android:entries="@array/krediler"
             android:popupBackground="@color/purple_200"
-            app:backgroundTint="@color/purple_200"
             app:layout_constraintBottom_toBottomOf="@+id/btnEkle"
             app:layout_constraintEnd_toEndOf="@+id/tvDersler"
             app:layout_constraintStart_toEndOf="@+id/spHarf"
