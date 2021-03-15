@@ -12,8 +12,8 @@ import kotlinx.android.synthetic.main.yeni_icerik_layout.view.*
 
 class MainActivity : AppCompatActivity() {
 
-    private val DERSLER : Array<String> = arrayOf("Java", "PHP", "Kotlin", "Unity", "Laravel", "Linux", "Mobil Platform" )
-    private var tumDersler:ArrayList<Dersler> = ArrayList(7)
+    private val DERSLER : Array<String> = arrayOf("Java", "PHP", "Kotlin", "Unity", "Laravel", "Linux", "Mobil Platform", "Android")
+    private var tumDersler:ArrayList<Dersler> = ArrayList(8)
     // for döngüsüne geri dönelim en hesaplada.
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -95,7 +95,7 @@ class MainActivity : AppCompatActivity() {
             toplamKredi += mevcutDersler.DersKredi.toDouble()
         }
 
-        Toast.makeText(this, "Ortalamanız: "+toplamHarf/toplamKredi, Toast.LENGTH_LONG).show()
+        Toasty.warning(this, "Ortalamanız: "+toplamHarf/toplamKredi, Toast.LENGTH_LONG,true).show()
         tumDersler.clear()
     }
 
