@@ -6,4 +6,12 @@
     <string name="ders_ad_girin">Ders Adı Girin:</string>
     <string name="hesapla">Hesapla</string>
     <string name="todo">TODO</string>
+    <string name="hizmet_bedeli_ne_kadar">Hizmet Bedeli Ne Kadar?</string>
+    <string name="servis_cretini_giriniz">Servis Ücretini Giriniz:</string>
+    <string name="harika_20">Harika (%20)</string>
+    <string name="yi_18">İyi (%18)</string>
+    <string name="yeterli_15">Yeterli (%15)</string>
+    <string name="tip_hesapla">Tip Hesapla</string>
+    <string name="tip_miktar">Tip Miktarı</string>
+    <string name="tip_ortalamas">Tip Ortalaması?</string>
 </resources>

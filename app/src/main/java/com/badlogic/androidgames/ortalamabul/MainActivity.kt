@@ -9,7 +9,6 @@ import android.widget.*
 import es.dmoral.toasty.Toasty
 import kotlinx.android.synthetic.main.yeni_icerik_layout.view.*
 
-
 class MainActivity : AppCompatActivity() {
 
     private val DERSLER : Array<String> = arrayOf("Java", "PHP", "Kotlin", "Unity", "Laravel", "Linux", "Mobil Platform", "Android")
