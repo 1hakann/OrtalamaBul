@@ -14,4 +14,5 @@
     <string name="tip_hesapla">Tip Hesapla</string>
     <string name="tip_miktar">Tip Miktarı</string>
     <string name="tip_ortalamas">Tip Ortalaması?</string>
+    <string name="tip_amount">Tip Amount: %s</string>
 </resources>
