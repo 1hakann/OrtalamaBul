@@ -37,6 +37,12 @@ android {
     buildToolsVersion '29.0.2'
 }
 
+android {
+    defaultConfig {
+        vectorDrawables.useSupportLibrary = true
+    }
+}
+
 dependencies {
 
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
